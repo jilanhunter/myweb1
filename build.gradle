@@ -43,7 +43,7 @@ jacocoTestReport{
 }
 sonarqube{
      properties{ 
-              property "sonar.projectName","Java:: simple project :: sonarQube scanner for Gradle"
+              property "sonar.projectName","Java :: simple project :: sonarQube scanner for Gradle"
               property "sonar.projectkey","org.sonarqube:myweb"
               property "sonar.jacoco.reportPath","${project.buildDir}/jacoco/test.exec"
               property "sonar.host.url","http://localhost:9000"
